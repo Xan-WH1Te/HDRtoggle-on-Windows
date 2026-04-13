@@ -14,13 +14,16 @@
 
 ## 🚀 快速开始
 
+你可以选择直接下载.exe文件或者自行编译
+
 ### 1. 编译 (Compilation)
 本项目利用 Windows 系统内置的 C# 编译器，无需安装任何开发环境（如 Visual Studio）。
-
+下载ToggleHDR.cs后
 打开 **命令提示符 (CMD)**，执行以下命令：
 ```cmd
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:winexe /out:D:\ToggleHDR.exe D:\ToggleHDR.cs
 ```
+注意你的.cs文件目录
 *编译完成后，你将在 D 盘根目录获得一个仅约 4KB 的 `ToggleHDR.exe`。*
 
 ### 2. 部署 (Deployment)
