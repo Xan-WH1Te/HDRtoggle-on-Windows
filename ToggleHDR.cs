@@ -68,7 +68,6 @@ class Program {
 
                 if (DisplayConfigGetDeviceInfo(ref getInfo) == 0) {
                     
-                    // 【终极真理判断】：只有底层数值等于 3，才是真正的 HDR 开启
                     bool isTrueHdrOn = (getInfo.value == 3);
 
                     DISPLAYCONFIG_SET_ADVANCED_COLOR_STATE setInfo = new DISPLAYCONFIG_SET_ADVANCED_COLOR_STATE();
